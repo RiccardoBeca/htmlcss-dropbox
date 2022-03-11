@@ -9,6 +9,6 @@ body{
 }
 
 
-.debug{
-  background-color: rgba(red, red, red, 0.5);
+a{
+  text-decoration: none;
 }
