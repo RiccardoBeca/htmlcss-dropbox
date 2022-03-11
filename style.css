@@ -7,19 +7,25 @@
 .btm-card {
   width: 100%;
 }
-
 /* /CARD COLUMN SECTION */
 
 
 /* SPONSOR SECTION */
 .partner-box{
-  width: 20%;
- 
-}
-.sponsor-top div{
-  display: inline-block;
-}
-.partner-description-box{
-  width: 40%;
+  width: 20vw;
+  height: 20vw;
 }
 
+.partner-description-box{
+  width: calc(100% - 40vw);
+  height: 20vw;
+}
+/* /SPONSOR SECTION */
+
+
+/* FOOTER */
+nav{
+  width: calc(100% / 5 - 40px);
+  margin: 0 20px;
+}
+/* /FOOTER */
