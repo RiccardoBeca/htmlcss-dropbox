@@ -32,6 +32,11 @@
   width: 50px;
 }
 
+.hw100{
+  height: 100px;
+  width: calc(100% / 5)
+}
+
 .h100 {
   min-height: 100px;
   
