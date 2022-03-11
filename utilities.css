@@ -27,6 +27,11 @@
   border: 1px solid black;
 }
 
+.hw50{
+  height: 50px;
+  width: 50px;
+}
+
 .h100 {
   min-height: 100px;
   
