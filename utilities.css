@@ -4,7 +4,9 @@
 }
 
 .w50 {
+  height: 70px;
   width: 50%;
+  line-height: 70px;
 }
 
 .text-right {
