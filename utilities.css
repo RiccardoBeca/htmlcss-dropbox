@@ -59,4 +59,7 @@
 .h500 {
   min-height: 500px;
 }
-
+/* contenitore operazioni */
+.operations.w50 {
+  width: calc(100% / 3);
+}
