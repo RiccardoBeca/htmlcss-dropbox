@@ -246,7 +246,49 @@ header {
 
 /*/ FIND A PARTNER */
 
+/* OPERATIONS */
+ .ops h2 {
+   font-size: 3rem;
+   padding-bottom: 30px;
+ }
+
+ .operations {
+   padding-top: 30px
+ }
+
+.operations.img {
+  width: 70%;
+}
+
+.operations.img img {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.operations h3 {
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+
+
+
+/* /OPERATIONS */
+
 /* SPONSOR SECTION */
+.end.title {
+  padding-top: 30px;
+}
+
+.end.title h2 {
+  font-size: 2.5rem;
+  padding-bottom: 20px;
+}
+
+.end.title a {
+  color:rgb(4, 99, 255) ;
+}
+
 .sponsor-box{
   width: 20vw;
   height: 20vw;
