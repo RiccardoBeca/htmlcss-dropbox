@@ -9,12 +9,16 @@
 .button a{
   color: white;
   background-color:rgb(0, 97, 255) ;
-  
 }
+
+.btn a {
+  color: black;
+  border: 1px solid black;
+  padding: 5px 20px;
+}
+
 .w50 {
-  height: 70px;
   width: 50%;
-  /* line-height: 70px; */
 }
 
 .text-right {
@@ -25,7 +29,6 @@
   padding-top: 100px;
   width: 80%;
   margin: 0 auto;
-  overflow: visible;
 }
 
 .clearfix::after {

@@ -1,5 +1,21 @@
-.menu li:hover{
+/* FIXED HEADER */
+header {
+  position: fixed ;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+}
+
+
+.menu.left li:nth-last-child(-n+3):hover{
   border-bottom: 2px solid black;
+
+}
+.menu.right li:nth-child(-n+3):hover{
+  border-bottom: 2px solid black;
+
 }
 .menubox {
   height: 70px;
@@ -7,10 +23,12 @@
   line-height: 70px;
 }
 
+
 /* HEADER MENU LEFT */
 
 .menu.left li:first-of-type {
   padding-left: 10px;
+  vertical-align: middle;
 }
 
 .menu li{
@@ -35,6 +53,7 @@
 
 /* JUMBOTRON */
 .jumbotron {
+  margin-bottom: 100px;
   background-color:rgb(180, 208, 231) ;
 }
 
@@ -71,20 +90,19 @@
   width: 70%;
 }
 .jumboimg img {
+  margin: 0 0 -70px 0;
   width:calc(100%);
 }
 /* /JUMBOTRON */
 
 /* CARD COLUMN SECTION */
 
-
-
  .plan h2 {
   font-size: 2em;
   padding-left: 30px;
   padding-bottom: 30px;
 }
-
+/* FAKE RADIO BUTTONS */
 .circle {
   display: inline-block;
   background-color: white;
@@ -101,13 +119,17 @@
   padding-bottom: 30px;
   padding-left: 30px;
 }
+/*/ FAKE RADIO BUTTONS */
+
+
 .card {
   width: calc(100% / 3 - 40px );
   margin: 0 20px;
   border: 1px solid lightgray;
+  height: 965px;
 }
 .btm-card {
-  margin-top: 40px;
+  margin: 40px 20px;
   border: 1px solid lightgray;
 }
 .plan p{
@@ -129,15 +151,11 @@
 }
 
 
-.top.list ul li:nth-child(2){
-  font-weight: bold;
-  font-size: 13px;
-  padding-bottom: 5px;
-}
 
 .top.list li:nth-child(3){
+  padding-top: 5px;
   padding-bottom: 15px;
-  color: lightgray;
+  color: gray;
   font-size: 10px;
 }
 
@@ -146,9 +164,6 @@
   font-size: 12px;
 }
 
-.card span {
-  padding: 30px;
-}
 
 .greyline {
   width: 40px;
@@ -156,9 +171,7 @@
   margin-left: 30px;
   padding-top: 20px;
 }
-.btm.list {
-  padding-bottom: 200px;
-}
+
 .btm.list i {
   padding-right: 5px;
   color:rgb(0, 97, 255) ;
@@ -180,6 +193,7 @@
 }
 /* /BOTTONE CARD */
 .card span {
+  padding: 30px;
   font-size: 12px;
 }
 .card span a {
@@ -203,19 +217,42 @@
 }
 
 .btm-card {
-  margin-bottom: 40px;
+  margin: 40px auto;
   width: 100%;
 }
 /* /CARD COLUMN SECTION */
 
 
+/* FIND A PARTNER */
+
+.partner.img {
+  width: 50%;
+}
+.partner.img img {
+  width: 100%;
+}
+.partner.text {
+  padding: 30px 0 0 60px;
+}
+
+.partner.text h2 {
+  padding-bottom: 20px;
+}
+
+.partner.text p {
+  line-height: 25px;
+  padding-bottom: 25px;
+} 
+
+/*/ FIND A PARTNER */
+
 /* SPONSOR SECTION */
-.partner-box{
+.sponsor-box{
   width: 20vw;
   height: 20vw;
 }
 
-.partner-description-box{
+.sponsor-description-box{
   width: calc(100% - 40vw);
   height: 20vw;
 }
