@@ -18,13 +18,6 @@
   background-color: white;
 }
 
-.w50 {
-  width: 50%;
-}
-
-.text-right {
-  text-align: right;
-}
 
 .containersml {
   padding-top: 100px;
@@ -44,21 +37,6 @@
   width: 15vw;
 }
 
-.hw100{
-  height: 100px;
-}
-
-.h100 {
-  min-height: 100px;
-}
-
-.h300 {
-  min-height: 300px;
-}
-
-.h500 {
-  min-height: 500px;
-}
 /* contenitore operazioni */
 .operations {
   width: calc(100% / 3);
