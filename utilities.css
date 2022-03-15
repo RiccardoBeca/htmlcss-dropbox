@@ -38,10 +38,6 @@
   clear: both;
 }
 
-.debug {
-  background-color: rgba(255, 0, 0, .3);
-  border: 1px solid black;
-}
 
 .hw50{
   height: 15vw;

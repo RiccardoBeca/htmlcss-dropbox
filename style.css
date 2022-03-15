@@ -442,8 +442,59 @@ header {
 
 
 /* FOOTER */
+footer {
+  background-color: black;
+}
+.footernav ul {
+  padding-bottom: 100px;
+}
+
+
+
+
+
 .footernav{
+  background-color: black;
   width: calc(100% / 5 - 40px);
   margin: 0 20px;
+}
+.footernav li {
+  padding-bottom: 10px;
+}
+
+.footernav li:first-child {
+  font-size: 1.2rem;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.footernav a {
+  font-size: 0.9rem;
+  color: white;
+  padding-bottom:30px;
+  
+}
+
+hr {
+  border: none;
+  color: grey;
+  height: 1px;
+  background-color: grey;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.footernav i {
+  color: lightgrey;
+}
+
+.footernav p {
+  padding:2px;
+  display: inline-block;
+  color: lightgray;
+}
+
+.arrow {
+  vertical-align: sub;
 }
 /* /FOOTER */
