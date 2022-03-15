@@ -48,6 +48,10 @@ header {
   background-color:rgb(0, 97, 255) ;
   padding: 5px 15px;
 }
+
+.menu.right ul li:last-of-type a:nth-last-of-type(1):hover {
+  opacity: 0.6;
+}
 /* /HEADER MENU RIGHT */
 
 
@@ -74,6 +78,9 @@ header {
 
 .jumbo.button a {
   padding:10px 20px 10px 20px;
+}
+.jumbo.button a:hover {
+  opacity: 0.6;
 }
 
 .jumbotext p:last-of-type {
@@ -124,12 +131,15 @@ header {
 
 .card {
   width: calc(100% / 3 - 40px );
-  margin: 0 20px;
   border: 1px solid lightgray;
   height: 965px;
 }
+
+.col.center {
+  margin: 0 60px;
+}
+
 .btm-card {
-  margin: 40px 20px;
   border: 1px solid lightgray;
 }
 .plan p{
@@ -150,7 +160,9 @@ header {
   font-size: 1.5em;
 }
 
-
+.top.list li:nth-child(2) {
+  font-weight: bold;
+}
 
 .top.list li:nth-child(3){
   padding-top: 5px;
@@ -159,7 +171,7 @@ header {
   font-size: 10px;
 }
 
- .top.list li:nth-last-child(-n+3){
+.top.list li:nth-last-child(-n+3){
   padding-bottom: 20px;
   font-size: 12px;
 }
@@ -173,9 +185,11 @@ header {
 }
 
 .btm.list i {
-  padding-right: 5px;
+  margin: -24px;
+  padding-right: 30px;
   color:rgb(0, 97, 255) ;
 }
+
 
 .btm.list li {
   padding: 10px;
@@ -189,7 +203,9 @@ header {
 }
 .free-trial a {
   padding: 5px 30px 5px 30px;
-  
+}
+.free-trial a:hover {
+  opacity: 0.8;
 }
 /* /BOTTONE CARD */
 .card span {
@@ -201,6 +217,8 @@ header {
   text-decoration: underline;
 }
 
+
+
 /* BOTTOM CARD */
 .float-right {
   margin: 40px 15px 0 0;
@@ -208,6 +226,11 @@ header {
 .float-right a {
   padding: 5px 15px;
 }
+
+.float-right a:hover {
+  opacity: 0.6;
+}
+
 .btm-card li h2 {
   padding-top: 30px;
 }
@@ -243,13 +266,15 @@ header {
   line-height: 25px;
   padding-bottom: 25px;
 } 
-
+.white.btn a:hover {
+  background-color: lightgray;
+}
 /*/ FIND A PARTNER */
 
 /* OPERATIONS */
  .ops h2 {
-   font-size: 3rem;
-   padding-bottom: 30px;
+  font-size: 3rem;
+  padding-bottom: 30px;
  }
 
  .operations {
@@ -390,6 +415,10 @@ header {
   border: none;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.sponsor-btm .btn a:hover {
+  background-color: lightgray;
 }
 /* /SPONSOR SECTION */
 
