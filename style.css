@@ -177,14 +177,14 @@ header {
   padding-right: 20px;
 }
 
-
+/* riga grigia */
 .greyline {
   width: 40px;
   border-bottom: 1px solid lightgray;
   margin-left: 30px;
   padding-top: 20px;
 }
-
+/* /riga grigia */
 .btm.list i {
   margin: -24px;
   padding-right: 30px;
@@ -233,6 +233,7 @@ header {
 }
 
 .btm-card li h2 {
+  font-size: 1.5em;
   padding-left: 30px;
   padding-top: 30px;
 }
@@ -274,14 +275,22 @@ header {
 /*/ FIND A PARTNER */
 
 /* OPERATIONS */
- .ops h2 {
+
+/* contenitore operazioni */
+.operations {
+  width: calc(100% / 3);
+}
+/* /contenitore operazioni */
+
+
+.ops h2 {
   font-size: 3rem;
   padding-bottom: 30px;
- }
+}
 
- .operations {
+.operations {
    padding-top: 30px
- }
+}
 
 .operations.img {
   width: 70%;
@@ -398,7 +407,6 @@ header {
   padding:0px 30px 40px 40px;
 }
 
-
 .sponsor-btm {
   background-color: rgb(180, 208, 231);
 }
@@ -431,7 +439,6 @@ header {
   padding-top: 20px;
 }
 
-
 .question.text {
   padding-bottom: 20px;
   border-bottom: 1px solid lightgrey;
@@ -450,33 +457,33 @@ header {
 
 
 /* FOOTER */
+
 footer {
   background-color: black;
 }
-.footernav ul {
+.footercol ul {
   padding-bottom: 100px;
 }
 
-
-
-
-
-.footernav{
+.footercol{
+  padding-bottom: 30px;
   background-color: black;
   width: calc(100% / 5 - 40px);
   margin: 0 20px;
 }
-.footernav li {
+
+.footercol li {
   padding-bottom: 10px;
 }
 
-.footernav li:first-child {
+.footercol li:first-child {
+  font-weight: bold;
   font-size: 1.2rem;
   color: white;
   padding-bottom: 10px;
 }
 
-.footernav a {
+.footercol a {
   font-size: 0.9rem;
   color: white;
   padding-bottom:30px;
@@ -492,11 +499,11 @@ hr {
   margin-bottom: 30px;
 }
 
-.footernav i {
+.footercol i {
   color: lightgrey;
 }
 
-.footernav p {
+.footercol p {
   padding:2px;
   display: inline-block;
   color: lightgray;

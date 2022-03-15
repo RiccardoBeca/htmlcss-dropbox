@@ -18,7 +18,6 @@
   background-color: white;
 }
 
-
 .containersml {
   padding-top: 100px;
   width: 80%;
@@ -31,13 +30,8 @@
   clear: both;
 }
 
-
 .hw50{
   height: 15vw;
   width: 15vw;
 }
 
-/* contenitore operazioni */
-.operations {
-  width: calc(100% / 3);
-}
